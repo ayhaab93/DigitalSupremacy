@@ -42,6 +42,11 @@ body {
   justify-content: space-between; gap: 24px;
 }
 .logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
 .logo-mark {
   width: 28px; height: 28px; background: var(--red);
   border-radius: 6px; display: flex; align-items: center;
@@ -291,10 +296,9 @@ body {
 <!-- NAV -->
 <div class="nav-wrap">
   <nav class="nav">
-    <a href="index.html" class="logo">
-      <div class="logo-mark">DS</div>
-      <span class="logo-text">Digital Supremacy</span>
-    </a>
+<a href="index.html" class="logo">
+    <img src="image/logo.png" alt="Digital Supremacy Logo" class="logo-img">
+</a>
             <ul class="nav-links">
       <li><a href="services.html">Services</a></li>
       <li><a href="case-studies.html">Case Studies</a></li>
